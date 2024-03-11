@@ -25,7 +25,7 @@ const Boutiques = () => {
                 };
 
                 const response = await axios.get(
-                    "https://sewzee.onrender.com/api/admin/boutiques?search=&from&to", // Updated API endpoint
+                    "https://api.sewzee.shop/api/admin/boutiques?search=&from&to", // Updated API endpoint
                     { headers }
                 );
 

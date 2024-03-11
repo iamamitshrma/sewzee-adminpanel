@@ -15,7 +15,7 @@ const UserDetails = () => {
     const headers = {
       Authorization: `Bearer ${token}`,
     };
-    fetch(`https://sewzee.onrender.com/api/admin/user/${id}`, { headers })
+    fetch(`https://api.sewzee.shop/api/admin/user/${id}`, { headers })
       .then((response) => response.json())
       .then((data) => setUser(data.data))
       .catch((error) => console.error('Error fetching user data:', error));

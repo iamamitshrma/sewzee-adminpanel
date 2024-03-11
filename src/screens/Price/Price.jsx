@@ -33,7 +33,7 @@ const Price = ({ modalData }) => {
     //         };
 
     //         fetch(
-    //             "https://sewzee.onrender.com/api/admin/prices/surgeOrder/",
+    //             "https://api.sewzee.shop/api/admin/prices/surgeOrder/",
     //             requestOptions
     //         )
     //             .then((response) => response.json())

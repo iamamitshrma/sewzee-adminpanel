@@ -27,7 +27,7 @@ const EmailNotification = ({ modalData }) => {
         body: JSON.stringify(payload),
       };
 
-      fetch("https://sewzee.onrender.com/api/admin/emailNotification", requestOptions)
+      fetch("https://api.sewzee.shop/api/admin/emailNotification", requestOptions)
         .then((response) => response.json())
         .then((data) => {
           toast.success("Successfully Sent");

@@ -12,7 +12,7 @@ const TailorDetails = () => {
     const headers = {
       Authorization: `Bearer ${token}`,
     };
-    fetch(`https://sewzee.onrender.com/api/admin/tailor/${id}`, { headers })
+    fetch(`https://api.sewzee.shop/api/admin/tailor/${id}`, { headers })
       .then((response) => response.json())
       .then((data) => setTailor(data.data))
       .catch((error) => console.error('Error fetching user data:', error));

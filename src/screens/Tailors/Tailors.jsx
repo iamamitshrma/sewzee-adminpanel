@@ -25,7 +25,7 @@ const Tailors = () => {
         };
 
         const response = await axios.get(
-          "https://sewzee.onrender.com/api/admin/tailors",
+          "https://api.sewzee.shop/api/admin/tailors",
           { headers }
         );
 

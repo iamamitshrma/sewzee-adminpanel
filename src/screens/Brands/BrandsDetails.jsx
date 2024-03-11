@@ -14,7 +14,7 @@ const BrandDetails = () => {
     const headers = {
       Authorization: `Bearer ${token}`,
     };
-    fetch(`https://sewzee.onrender.com/api/admin/brand/${id}`, { headers })
+    fetch(`https://api.sewzee.shop/api/admin/brand/${id}`, { headers })
       .then((response) => response.json())
       .then((data) => setBrand(data.data))
       .catch((error) => console.error('Error fetching brand data:', error));
@@ -36,7 +36,7 @@ const BrandDetails = () => {
   //     'Content-Type': 'application/json'
   //   };
 
-  //   fetch('https://sewzee.onrender.com/api/admin/pushNotification', {
+  //   fetch('https://api.sewzee.shop/api/admin/pushNotification', {
   //     method: 'POST',
   //     headers: headers,
   //     body: JSON.stringify(pushNotificationData)

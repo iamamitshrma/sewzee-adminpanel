@@ -43,7 +43,7 @@ const CouponTailor = () => {
     };
 
     axios
-      .get("https://sewzee.onrender.com/api/admin/tailorcoupon", { headers })
+      .get("https://api.sewzee.shop/api/admin/tailorcoupon", { headers })
       .then((response) => {
         setCoupons(response.data.data);
         setLoading(false);
@@ -75,7 +75,7 @@ const CouponTailor = () => {
     };
 
     axios
-      .post("https://sewzee.onrender.com/api/admin/tailorcoupon", couponData, {
+      .post("https://api.sewzee.shop/api/admin/tailorcoupon", couponData, {
         headers,
       })
       .then((response) => {

@@ -22,7 +22,7 @@ const Brands = () => {
           Authorization: `Bearer ${token}`,
         };
 
-        const response = await API.get("https://sewzee.onrender.com/api/admin/brands?search=&from&to");
+        const response = await API.get("https://api.sewzee.shop/api/admin/brands?search=&from&to");
 
         setBrands({
           isLoading: false,

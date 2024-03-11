@@ -25,7 +25,7 @@ const Drivers = () => {
         };
 
         const response = await axios.get(
-          "https://sewzee.onrender.com/api/admin/drivers",
+          "https://api.sewzee.shop/api/admin/drivers",
           { headers }
         );
 

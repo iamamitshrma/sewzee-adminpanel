@@ -42,7 +42,7 @@ const Coupon = () => {
     };
 
     axios
-      .get("https://sewzee.onrender.com/api/admin/coupon", { headers })
+      .get("https://api.sewzee.shop/api/admin/coupon", { headers })
       .then((response) => {
         setCoupons(response.data.data);
         setLoading(false); // Set loading to false once data is fetched
@@ -74,7 +74,7 @@ const Coupon = () => {
     };
 
     axios
-      .post("https://sewzee.onrender.com/api/admin/coupon", couponData, {
+      .post("https://api.sewzee.shop/api/admin/coupon", couponData, {
         headers,
       })
       .then((response) => {

@@ -12,7 +12,7 @@ const BoutiqueDetails = () => {
     const headers = {
       Authorization: `Bearer ${token}`,
     };
-    fetch(`https://sewzee.onrender.com/api/admin/boutique/${id}`, { headers })
+    fetch(`https://api.sewzee.shop/api/admin/boutique/${id}`, { headers })
       .then((response) => response.json())
       .then((data) => setBoutique(data.data))
       .catch((error) => console.error('Error fetching user data:', error));

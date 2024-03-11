@@ -25,7 +25,7 @@ const RadialPrice = () => {
             };
 
             fetch(
-                "https://sewzee.onrender.com/api/admin/prices/radial/",
+                "https://api.sewzee.shop/api/admin/prices/radial/",
                 requestOptions
             )
                 .then((response) => response.json())

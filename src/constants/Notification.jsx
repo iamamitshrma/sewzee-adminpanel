@@ -72,7 +72,7 @@ const Notify = ({ modalData }) => {
         body: JSON.stringify(payload),
       };
 
-      fetch("https://sewzee.onrender.com/api/admin/pushNotification", requestOptions)
+      fetch("https://api.sewzee.shop/api/admin/pushNotification", requestOptions)
         .then((response) => response.json())
         .then((data) => {
           toast.success("Successfully Sent");

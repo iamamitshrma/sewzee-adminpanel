@@ -15,7 +15,7 @@ const DriverDetails = () => {
     const headers = {
       Authorization: `Bearer ${token}`,
     };
-    fetch(`https://sewzee.onrender.com/api/admin/driver/${id}`, { headers })
+    fetch(`https://api.sewzee.shop/api/admin/driver/${id}`, { headers })
       .then((response) => response.json())
       .then((data) => setDriver (data.data))
       .catch((error) => console.error('Error fetching driver data:', error));

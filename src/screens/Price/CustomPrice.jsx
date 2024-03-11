@@ -27,7 +27,7 @@ const CustomPrice = () => {
             };
 
             fetch(
-                "https://sewzee.onrender.com/api/admin/prices/custom/",
+                "https://api.sewzee.shop/api/admin/prices/custom/",
                 requestOptions
             )
                 .then((response) => response.json())
