@@ -1,0 +1,125 @@
+.loginWrapper {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginLeftContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.loginLeftInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginLeftInfo img {
+    width: 100px;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.loginLeftInfo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+.loginLeftInfo p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 20px;
+    color: var(--primary);
+}
+
+
+.loginLeftInput {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.loginLeftInput div:first-child {
+    width: 100%;
+}
+
+.loginLeftInput input {
+    height: 30px;
+    color: var(--black);
+}
+
+.loginLeftInput .Mui-focused {
+    color: var(--primary) !important;
+}
+
+.passwordToggle {
+    position: absolute;
+    top: 20%;
+    right: 15px;
+}
+
+
+.loginRight {
+    flex: 1;
+    height: 100vh;
+    background: url("../../assets/loginbg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginRightContent {
+    width: 80%;
+    height: 50%;
+    padding: 30px 10px;
+    background-color: rgba(248, 248, 248, 0.13);
+    border-radius: 4px;
+}
+
+.loginRightContent p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.loginRightContent h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.loginBtn {
+    height: 40px;
+    width: 100%;
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    outline: none;
+}
+
+.loginBtn svg {
+    fill: var(--white);
+}

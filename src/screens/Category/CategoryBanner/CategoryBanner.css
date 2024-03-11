@@ -1,0 +1,192 @@
+.categoryBannerWrapper{
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryBannerInputContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.productFilter{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.categoryBannerAutoInput {
+    width: 28%; 
+}
+
+.categoryBannerAutoComplete1 {
+    width: 280px !important;
+    margin: 8px;
+}
+.categoryBannerAutoInput div:first-child {
+    width: 100% !important;
+    
+}
+.categoryBannerInput{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    
+}
+
+.categoryBannerInput label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--darkGray);
+    margin-bottom: 5px;
+    box-shadow: none !important;
+
+}
+.categoryBannerInput input {
+    height: 56px;
+    outline: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 16px !important;
+    padding: 0 10px;
+}
+
+
+
+.marketplaceBannerInput select {
+    height: 40px;
+    outline: none;
+    border: 1px solid var(--darkGray);
+    border-radius: 6px;
+    font-size: 16px !important;
+    padding: 0 10px;
+}
+
+.slideExtraMargin{
+    margin-right: 60px !important;
+    display: flex;
+    flex-direction: column;
+}
+.slideExtraMargin h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--darkGray);
+    margin-bottom: 5px;
+    box-shadow: none !important;
+}
+
+.categoryBannerMediaOption{
+    
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 20px 0;
+}
+.categoryBannerMediaUoload h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--darkGray);
+    margin-bottom: 10px;
+}
+
+.categoryBannerLogoUploadBtn {
+    padding: 4px 15px;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    line-height: 22px;
+    border: none;
+    font-style: normal;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--primary);
+    text-align: center;
+    cursor: pointer;
+}
+
+.categoryBannerMediaOther{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 10px 0;
+}
+.categoryBannerMediaOther h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--darkGray);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.categoryBannerMediaOther h6 svg {
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
+    fill: var(--primary);
+    cursor: pointer;
+}
+
+.categoryBannerMedia{
+    display: flex;
+    width: 100%;
+}
+
+.categoryBannerPrev{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    flex: 2;
+}
+.categoryBannerPrev h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textBlack);
+    margin-bottom: 10px;
+}
+.categoryBannerPrev img{
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+    border-radius: 10px;
+}
+
+.categoryBannerThumbnailPrev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex:1
+}
+.categoryBannerThumbnailPrev h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textBlack);
+    margin-bottom: 20px;
+}
+.categoryBannerThumbnailPrev img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.checkboxpara{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}

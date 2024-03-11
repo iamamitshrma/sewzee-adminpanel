@@ -1,0 +1,32 @@
+.drivers-image {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  .driversWrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+/* Add this CSS to your stylesheets (e.g., App.css) */
+.drivers-details-container {
+    width: 1200px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drivers-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .drivers-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  

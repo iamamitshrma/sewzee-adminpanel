@@ -1,0 +1,110 @@
+:root {
+  --primary: #7D5FFE;
+  --primaryLight: #e0f3ff;
+  --purplelight: #F2EFFF;
+  --black: #000000;
+  --danger: #f5260b;
+  --white: #ffffff;
+  --offWhite: #f7f7f7;
+  --gray: #d7d2d2;
+  --darkGray: #797979;
+  --succees: #00b341;
+  --succeesGradient: linear-gradient(right,#17C217, #11A011);
+  --succeesGradient2: linear-gradient(45deg, #17C217, #11A011);;
+  --border: #dedede;
+  --toggleborder: #F6396D;
+  --textBlack: #233036;
+  --extraBlack:#0D0D0D;
+  --inputText: #5C6469;
+  --viloetText: #6841FF;
+  --cosmicText: #763F6A
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+button,
+input {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  padding: 3px;
+  border-radius: 10px;
+  height: 2px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 2px;
+  padding: 5px;
+  background-color: #1C1B4D;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+.onboardingLogoUploadBtn {
+  padding: 4px 15px;
+  width: 150px;
+  height: 30px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  line-height: 22px;
+  border: none;
+  font-style: normal;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: var(--primary);
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 70px;
+
+}
+.modalBtn{
+margin-bottom: 200px;
+  width: 200px;
+  height: 30px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  line-height: 22px;
+  border: none;
+  font-style: normal;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: red;
+  text-align: center;
+}

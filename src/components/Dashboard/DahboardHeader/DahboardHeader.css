@@ -1,0 +1,98 @@
+.dashboardTopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboardTopTitle h6 {
+    font-family: "Popins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.dashboardTopTitle h6 span {
+    color: var(--black)
+}
+
+.dashboardTopTitle p {
+    font-family: "Popins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--darkGray);
+    margin-bottom: 0px;
+}
+
+
+.dashboardTopBarAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboardTopBarAction svg {
+    margin-right: 15px;
+}
+
+.dashboardTopBarAction p {
+    font-family: "Popins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--primary);
+    border: 1px solid var(--gray);
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.active {
+    background-color: var(--primary);
+    color: var(--white) !important;
+    animation: active 0.3s ease-in-out;
+}
+
+@keyframes active {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.refreshData {
+    animation: refresh 0.8s ease-in-out infinite;
+}
+
+.refreshDataOff {
+    /* remove this animation */
+    animation: none;
+}
+
+@keyframes refresh {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.dashboardTopBarAction p:last-child {
+    margin-right: 0px;
+}

@@ -1,0 +1,13 @@
+.priceDeatilsBodyWrapper{
+    border: 1px solid var(--border);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    height: 50%;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: var(--white);
+}
+.priceWrapper{
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+}

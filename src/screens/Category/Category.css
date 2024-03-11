@@ -1,0 +1,89 @@
+.categoryWrapper{
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6 !important;
+}
+
+.categoryContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Add category Css */
+
+
+.categoryInputContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+.categoryInputSelect{
+    width: 20% !important;
+    margin-right: 20px;
+}
+
+.categoryInput{
+    display: flex;
+    flex-direction: column;
+    width: 33%
+}
+.categoryOther h6 svg {
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
+    fill: var(--primary);
+    cursor: pointer;
+}
+
+.categoryMediaUoload{}
+
+
+.marketplaceBannerLogoUploadBtn {
+    padding: 4px 15px;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    line-height: 22px;
+    border: none;
+    font-style: normal;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--primary);
+    text-align: center;
+    cursor: pointer;
+}
+
+.categoryMedia{
+    display: flex;
+    width: 100%;
+}
+
+.categoryMediaPrev{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    flex: 2;
+}
+.categoryMediaPrev h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textBlack);
+    margin-bottom: 10px;
+}
+.categoryMediaPrev img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}

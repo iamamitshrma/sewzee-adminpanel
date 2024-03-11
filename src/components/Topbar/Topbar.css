@@ -1,0 +1,8 @@
+.topbarLogoutbtn {
+    background-color: var(--primary);
+    border: none;
+    width: 100px;
+    outline: none;
+    height: 40px;
+    color: white;
+}
