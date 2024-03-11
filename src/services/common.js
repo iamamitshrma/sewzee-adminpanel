@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://sewzee.onrender.com/",
+    baseURL: "https://api.sewzee.shop/",
 });
 
 API.interceptors.request.use((req) => {
